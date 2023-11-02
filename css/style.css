@@ -14,7 +14,7 @@ body{
     font-style: normal;
 }
 header {
-    background-image: url(bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size:auto;
