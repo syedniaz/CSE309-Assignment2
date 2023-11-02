@@ -1,0 +1,204 @@
+@font-face {
+    font-family: spiderman;
+    src: url(/comback-home-font/CombackHomeRegular-jEMd9.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: spiderman;
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:auto;
+    margin: 0;
+    padding: 0;
+}
+
+.learn a{
+    text-decoration: none;
+    color: white;
+}
+
+header a{
+    font-size: 36px;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+header h2{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.head button{
+    font-size: 20px;
+    padding: 15px 25px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 25px;
+    color: black;
+    font-family: spiderman;
+    font-weight: bold;
+    cursor: pointer;
+}
+header section{
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-top:5px;
+    margin-right: 20px;
+    font-family: spiderman;
+}
+
+nav a {
+    margin-top: 5px;
+    margin-left:20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav img {
+    height: 60px;
+}
+main{
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    margin: 0;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+main h1{
+    margin-top: 0;
+    padding-top: 100px;
+}
+.cards{
+    display:inline-block;
+    margin: 5%;
+}
+.cards img{
+    height: 28vh;
+    border-radius: 5px;
+}
+
+.cards h2{
+    font-size: 36px;
+    color: rgb(230, 184, 124);
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+.cards p{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.cards a{
+    font-size: 20px;
+    color: aquamarine;
+}
+.detail1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detail1 h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.detail1 p{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.vill{
+    font-size: 50px;
+    color: rgb(230, 184, 124);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.detail2{
+    width: 28vw;
+}
+.det{
+    width: 50%;
+}
+
+footer img{
+    margin: 10px;
+}
+.social{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 63, 63);
+}
+.end{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(23, 23, 23);
+    text-align: center;
+}
+
+.end a{
+    text-decoration: none;
+    color: red;
+}
+
+.end h4{
+    color: white;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.end p{
+    font-size: 24px;
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 0;
+    padding: 20px;
+    color: rgb(152, 148, 148);
+}
